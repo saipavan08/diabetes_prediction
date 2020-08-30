@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 import pickle
 import numpy as np
 model=pickle.load(open('model.pkl','rb'))    
