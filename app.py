@@ -27,9 +27,9 @@ def main():
         prediction=model.predict(data)
         pred='{0}'.format(prediction[0])
         if pred == '1':
-            st.error("More chance of having Diabetes")
+            st.error("Suffering from Diabetes")
         else:
-            st.success("Less chance of having Diabetes")
+            st.success("Not Suffering from Diabetes")
 
 
 if __name__ == '__main__':
